@@ -1,0 +1,27 @@
+// CSGOClicker - Case CSGOClicker
+//money, inventory, jackpot
+var itemCounter = 0;
+var fps = 15;
+
+var money = 0.50;
+var currentCase = "case1";
+var acceptMoneyPerClick = 0.50;
+
+/*=========================Inventory============================*/
+//In inventory: weap skins
+//Hidden: money
+
+
+//sorting: by money, rarity
+var popup = true;
+
+var inventory = {};
+var jackpotInventory = {};
+
+var inventoryMax = 1000;
+var inventoryCurrent = 0;
+
+var keyPrice = 0.00;
+
+var caseDiscount = 0;
+var keyDiscount = 0;
